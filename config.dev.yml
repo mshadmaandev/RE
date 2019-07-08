@@ -1,0 +1,10 @@
+---
+ENVIRONMENT_TYPE: dev
+ROLE: arn:aws:iam::447303353549:role/re_lambda_role
+VPC:
+  securityGroupIds:
+    - sg-0a49669a7d2ce2c1b
+  subnetIds:
+    - subnet-0857d9e037366eb2c
+    - subnet-0d7f79034b18ead1a
+    - subnet-005150c5a4d43240b
